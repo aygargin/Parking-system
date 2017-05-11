@@ -1,0 +1,132 @@
+.navigation{
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.navigation .item{
+    position:absolute;
+}
+.computer{
+    top:11.5%;
+    left:28%;
+}
+.mechanical{
+   top:52%;
+   left:64.3%;
+}
+.electronics{
+   top:29.5%;
+   left:55%;
+   
+}
+.electrical{
+   top:15.5%;
+   left:42.5%;
+  
+}
+.civil{
+   top:18%;
+   left:14%;
+}
+.chemical
+{
+	top:35%;
+	left:2.5%;
+}
+.petrochemical
+{
+	top:76%;
+	left:69%;
+}
+a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
+.computer a.icon{
+    background:transparent url(../images/computer.png) no-repeat 0px 0px;
+}
+.mechanical a.icon{
+    background:transparent url(../images/mechanical.png) no-repeat 0px 0px;
+}
+.electronics a.icon{
+    background:transparent url(../images/electronics.png) no-repeat 0px 0px;
+}
+.electrical a.icon{
+    background:transparent url(../images/electrical.png) no-repeat 0px 0px;
+}
+.civil a.icon{
+    background:transparent url(../images/civil.png) no-repeat 0px 0px;
+}
+.chemical a.icon{
+    background:transparent url(../images/chemical.png) no-repeat 0px 0px;
+}
+.petrochemical a.icon{
+    background:transparent url(../images/petrochemical.png) no-repeat 0px 0px;
+}
+.navigation .item a.active{
+    background-position:0px -52px;
+}
+.item img.circle{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+    opacity:.1;
+}
+.item h2{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:18px;
+    top:0px;
+    left:52px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item:hover ul{
+	display:block;
+	}
+.item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item ul{
+    list-style:none;
+    position:absolute;
+    top:50px;
+    left:25px;
+    display:none;
+}
+.item ul li a{
+    font-size:15px;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#222;
+    padding:3px;
+    float:left;
+    clear:both;
+    width:100px;
+    text-shadow:1px 1px 1px #fff;
+}
+.item ul li a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
